@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+background:linear-gradient(rgb(87, 103, 186), rgb(26, 252, 109));
+height: 100vh;
+}
+
+main {
+ text-align: center;
+ margin-top: 200px;
+}
+
+h1 {
+font-size: 4rem;
+border: 2px solid black;
+border-radius: 10px;
+background-color: darkblue;
+color: #FFF;
+width: 40%;
+margin: 0 auto;
+padding: 10px;
+}
+
+span {
+    font-size: 4rem;
+}
+
+.buttons-container {
+    margin-top: 15px;
+}
+
+.buttons-decrease {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(5, 2, 149);
+    color: #FFF;
+    cursor: pointer;
+}
+
+.buttons-reset {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(5, 2, 149);
+    color: #FFF;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttons-increase {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(5, 2, 149);
+    color: #FFF;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttons-decrease:hover{
+    background-color: #FFF;
+    color: darkblue
+}
+
+.buttons-reset:hover{
+    background-color: #FFF;
+    color:darkblue
+}
+
+.buttons-increase:hover{
+    background-color: #FFF;
+    color:darkblue
+}
