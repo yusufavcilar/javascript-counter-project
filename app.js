@@ -8,6 +8,7 @@ let count = 0;
 function increase() {
   count++;
   totalValue.innerHTML = count;
+  totalValue.style.color= "yellow"
 }
 buttonIncrease.addEventListener("click", increase)
 //decrease button 
@@ -15,14 +16,16 @@ function decrease() {
   if (count != 0) {
     count--;
     totalValue.innerHTML = count;
+    totalValue.style.color = "purple"
   }
 }
-//reset button 
 buttonDecrease.addEventListener("click", decrease)
 
+//reset button 
 function reset() {
   count = 0;
   totalValue.innerHTML = count;
+  totalValue.style.color = "black"
 }
 
 buttonReset.addEventListener("click", reset)
